@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border;
+    font-family: 'Protest Riot', sans-serif;
+}
+.portfolio-container{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    position: fixed;
+
+}
+.navlist{
+    display: flex;
+    gap: 3.5rem;
+    height: 15vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+
+
+}
+.navlist li{
+    list-style: none;
+}
+.navlist li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font: 1rem;
+    color: #fff;
+}
+.left-container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background: #262525;
+    width: 70%;
+    padding-left: 3rem;
+}
+.right-container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background:linear-gradient(-45deg,#3877ff,#262525 70%);
+    width: 30%;
+
+}
+.icons .fa-brands{
+    color:#bbb ;
+    font-size: 1.7rem;
+}
+.icons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    
+
+}
+.content{
+    margin-left: 4rem;
+}
+.content .intro{
+    font-size: 4rem;
+    color: #fff;
+
+}
+.content .intro span{
+    color: #5db9ee;
+}
+.content .detail2 span{
+    color: #5db9ee;
+    font-size: 2rem;
+    max-width: 38rem;
+    margin: 1.1rem 0 3rem 0;
+    line-height: 1.8rem;
+    
+}
+.content h2{
+    font-size: 1.5rem;
+    color: #5db9ee;
+}
+.content .detail{
+    font-size: 1.1rem;
+    color: #fff;
+    max-width: 38rem;
+    margin: 1.1rem 0 3rem 0;
+    line-height: 1.8rem;
+}
+.content .detail3{
+    font-size: 1.1rem;
+    color: #fff;
+    max-width: 38rem;
+    margin: 1.1rem 0 3rem 0;
+    line-height: 1.8rem;
+}
+
+.icons .fa-brands:hover{
+    cursor: pointer;
+    background: linear-gradient(#fff,#3877ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.content .detail4 span{
+    color: #5db9ee;
+    font-size: 2rem;
+    max-width: 38rem;
+    margin: 1.1rem 0 3rem 0;
+    line-height: 1.8rem;
+}
+.content .detail5{
+    font-size: 1.1rem;
+    color: #fff;
+    max-width: 38rem;
+    margin: 1.1rem 0 3rem 0;
+    line-height: 1.8rem;
+}
+    
+
+
+
